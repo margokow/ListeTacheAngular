@@ -1,0 +1,11 @@
+<form [formGroup]="taskForm" (ngSubmit)="onSubmit()" class="form-inline">
+  <div class="form-group mb-2">
+    <label for="title" class="sr-only">Titre de la tâche</label>
+    <input id="title" formControlName="title" class="form-control" placeholder="Donne un nom à la tâche">
+  </div>
+  <div class="form-group mx-sm-3 mb-2">
+    <label for="description" class="sr-only">Description</label>
+    <input id="description" formControlName="description" class="form-control" placeholder="Décris la tâche">
+  </div>
+  <button type="submit" class="btn btn-primary mb-2">Ajoute la tâche</button>
+</form>

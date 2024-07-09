@@ -1,0 +1,15 @@
+/* Style pour la liste des tâches affichée verticalement */
+.list-group {
+  display: flex;
+  flex-direction: column; /* Affiche les éléments de la liste verticalement */
+}
+
+/* Style des éléments de la liste des tâches */
+.list-group-item {
+  background-color: #ffffff;
+  border: 1px solid #dee2e6;
+  border-radius: 0.25rem;
+  margin-bottom: 10px; /* Espace entre les éléments de la liste */
+  padding: 10px; /* Espacement intérieur */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Ombre légère pour chaque élément */
+}

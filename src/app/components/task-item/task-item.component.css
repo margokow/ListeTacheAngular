@@ -1,0 +1,15 @@
+.btn {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* Style du bouton de suppression avec une couleur plus vive */
+.btn-danger {
+  background-color: #dc3545; /* Rouge vif pour le bouton de suppression */
+  border-color: #dc3545; /* Bordure rouge vif */
+}
+
+.btn-danger:hover {
+  background-color: #c82333; /* Rouge foncé au survol */
+  border-color: #bd2130; /* Bordure rouge foncé */
+}
